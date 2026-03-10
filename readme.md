@@ -6,7 +6,7 @@
 
 `sudo apt update`
 
-#### Git
+### Git
 
 Visit [official website](https://git-scm.com/install/linux) to install the latest version of Git on Linux:
 
@@ -16,7 +16,7 @@ Visit [official website](https://git-scm.com/install/linux) to install the lates
 
 `sudo apt update; sudo apt install git`
 
-#### NVM
+### NVM
 
 Visit [NVM Github page](https://github.com/nvm-sh/nvm) for install script:
 
@@ -26,13 +26,17 @@ Visit [NVM Github page](https://github.com/nvm-sh/nvm) for install script:
 
 `nvm use stable / latest / carbon / 18`
 
-#### VSCode / Google Chrome
+### Software
 
 Download .deb package from the [Google](https://www.google.com/chrome/?platform=linux), [VSCode](https://code.visualstudio.com/download) official websites and install them using dpkg:
 
 `sudo dpkg -i path-to-deb-package.deb`
 
-## System Settings
+Install VLC player:
+
+`sudo apt install vlc -y`
+
+### System Settings
 
 Settings -> Appearence: AutoHide Dock + Bottom + Theme
 
@@ -40,7 +44,11 @@ Keyboard -> Add new input source + Change keyboard shortcut to change input sour
 
 # Git
 
-## SSH
+`git config --local user.name itgrad07`
+
+`git config --local user.email itgrad07@gmail.com`
+
+### SSH
 
 Public SSH key is stored in .pub file in ~/.ssh folder:
 
@@ -52,12 +60,12 @@ Public SSH key is stored in .pub file in ~/.ssh folder:
 
 Set the following settings:
 
-- format: on save
+- format: onSave
 - save: onFocusChange
 
 Extensions:
 
-- Prettier - Code formatter + edint setting.json
+- Prettier - Code formatter + edit settings.json
 - ESLint (Microsoft)
 - Live Server (Ritwick Dey)
 
