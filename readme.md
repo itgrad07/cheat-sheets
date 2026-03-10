@@ -1,0 +1,71 @@
+# Ubuntu Linux
+
+`sudo apt update`
+
+`sudo apt list --upgradable`
+
+`sudo apt update`
+
+#### Git
+
+Visit [official website](https://git-scm.com/install/linux) to install the latest version of Git on Linux:
+
+`sudo apt-get install git`
+
+`sudo add-apt-repository ppa:git-core/ppa`
+
+`sudo apt update; sudo apt install git`
+
+#### NVM
+
+Visit [NVM Github page](https://github.com/nvm-sh/nvm) for install script:
+
+`nvm install stable / latest / carbon / 18`
+
+`nvm ls`
+
+`nvm use stable / latest / carbon / 18`
+
+#### VSCode / Google Chrome
+
+Download .deb package from the [Google](https://www.google.com/chrome/?platform=linux), [VSCode](https://code.visualstudio.com/download) official websites and install them using dpkg:
+
+`sudo dpkg -i path-to-deb-package.deb`
+
+## System Settings
+
+Settings -> Appearence: AutoHide Dock + Bottom + Theme
+
+Keyboard -> Add new input source + Change keyboard shortcut to change input source
+
+# Git
+
+## SSH
+
+Public SSH key is stored in .pub file in ~/.ssh folder:
+
+`ssh-keygen`
+
+`cat ~/.ssh/id_rsa.pub`
+
+# VSCode
+
+Set the following settings:
+
+- format: on save
+- save: onFocusChange
+
+Extensions:
+
+- Prettier - Code formatter + edint setting.json
+- ESLint (Microsoft)
+- Live Server (Ritwick Dey)
+
+**settings.json** should look like:
+
+```
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+```
