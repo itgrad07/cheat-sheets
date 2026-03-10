@@ -72,13 +72,13 @@ Create alias for `git status`:
 
 `git config --global alias.st status`
 
-| Text                          | Description           |
-| ----------------------------- | --------------------- |
-| git branch                    | show branches         |
-| git branch -r                 | show remote branches  |
-| git branch -D <branch>        | delete local branch   |
-| git cherry-pick <commit-hash> | delete local branch   |
-| git reset --soft HEAD~N       | squash last N commits |
+| Text                        | Description           |
+| --------------------------- | --------------------- |
+| git branch                  | show branches         |
+| git branch -r               | show remote branches  |
+| git branch -D branch        | delete local branch   |
+| git cherry-pick commit-hash | delete local branch   |
+| git reset --soft HEAD~N     | squash last N commits |
 
 ### SSH
 
