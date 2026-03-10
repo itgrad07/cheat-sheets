@@ -6,6 +6,18 @@
 
 `sudo apt update`
 
+| Command          | Description          |
+| ---------------- | -------------------- |
+| Ctrl + W         | close window         |
+| Super (Win) + D  | hide window          |
+| Super + Space    | change input source  |
+| Ctrl + Alt + T   | open terminal window |
+| Ctrl + Shift + T | open terminal tab    |
+
+PrintScreen - utility to make screen shots and record videos
+
+PrintScreen + Ctrl - make quick screenshot (full page screenshot)
+
 ### Git
 
 Visit [official website](https://git-scm.com/install/linux) to install the latest version of Git on Linux:
@@ -32,6 +44,10 @@ Download .deb package from the [Google](https://www.google.com/chrome/?platform=
 
 `sudo dpkg -i path-to-deb-package.deb`
 
+Install Chromium:
+
+`sudo apt update; sudo apt install chromium-browser`
+
 Install VLC player:
 
 `sudo apt install vlc -y`
@@ -47,6 +63,19 @@ Keyboard -> Add new input source + Change keyboard shortcut to change input sour
 `git config --local user.name itgrad07`
 
 `git config --local user.email itgrad07@gmail.com`
+
+Delete all local branches except:
+
+`git branch | grep -v "develop" | xargs git branch -D`
+
+Create alias for `git status`:
+
+`git config --global alias.st status`
+
+| Text                    | Description           |
+| ----------------------- | --------------------- |
+| git branch -d branch    | delete local branch   |
+| git reset --soft HEAD~N | squash last N commits |
 
 ### SSH
 
@@ -68,12 +97,30 @@ Extensions:
 - Prettier - Code formatter + edit settings.json
 - ESLint (Microsoft)
 - Live Server (Ritwick Dey)
+- Simple React Snippets (Burke Holland)
+
+Simple React Snippets:
+
+- sfc (stateless functional component with default export)
+- usf (declare a new state variable using State Hook)
 
 **settings.json** should look like:
 
 ```
-"editor.defaultFormatter": "esbenp.prettier-vscode",
+{
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+
+  "editor.codeActionsOnSave": {
+    // remove and reorder unused imports
+    "source.organizeImports": true,
+  },
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+
+  "git.autofetch": true,
+}
 ```
