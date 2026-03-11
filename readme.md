@@ -127,3 +127,11 @@ Simple React Snippets:
   "git.autofetch": true,
 }
 ```
+
+# Other
+
+#### VPN Chrome Extensions
+
+Free VPN Proxy - VPNLY
+
+windscribe
