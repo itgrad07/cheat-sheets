@@ -52,6 +52,8 @@ Install VLC player:
 
 `sudo apt install vlc -y`
 
+_Built-in screen recorder does not record sound; need to install Kazam or Vokoscreen_
+
 ### System Settings
 
 Settings -> Appearence: AutoHide Dock + Bottom + Theme
@@ -109,7 +111,7 @@ Simple React Snippets:
 
 Fonts:
 
-'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace
+_'Cascadia Code', 'Fira Code', Inconsolata, Consolas, 'Courier New', monospace_
 
 **settings.json** should look like:
 
