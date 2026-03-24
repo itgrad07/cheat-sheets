@@ -107,6 +107,10 @@ Simple React Snippets:
 - sfc (stateless functional component with default export)
 - usf (declare a new state variable using State Hook)
 
+Fonts:
+
+'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace
+
 **settings.json** should look like:
 
 ```
