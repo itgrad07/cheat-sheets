@@ -1,3 +1,7 @@
+# MacOs
+
+cmd + shift + f4 to make screenshot
+
 # Ubuntu Linux
 
 `sudo apt update`
@@ -89,6 +93,10 @@ Public SSH key is stored in .pub file in ~/.ssh folder:
 `ssh-keygen`
 
 `cat ~/.ssh/id_rsa.pub`
+
+Public key is stored in a *.pub file
+
+Add an SSH key in Bitbucket [https://bitbucket.org/account/settings/ssh-keys](https://bitbucket.org/account/settings/ssh-keys)
 
 # VSCode
 
