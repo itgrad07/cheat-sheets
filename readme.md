@@ -82,8 +82,8 @@ Create alias for `git status`:
 | --------------------------- | --------------------- |
 | git branch                  | show branches         |
 | git branch -r               | show remote branches  |
-| git branch -m <newName>               | rename current branch |
-| git branch -m <oldName> <newName>               | rename current branch |
+| git branch -m newName              | rename current branch |
+| git branch -m oldName newName             | rename oldName branch |
 | git branch -D branch        | delete local branch   |
 | git cherry-pick commit-hash | delete local branch   |
 | git reset --soft HEAD~N     | squash last N commits |
