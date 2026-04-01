@@ -156,8 +156,8 @@ windscribe
 
 ```
 enum LicenseTypes {
-  ALCO,
-  TOBACCO,
+  ALCO = "ALCO",
+  TOBACCO = "TOBACCO",
 }
 
 const abc: LicenseTypes.ALCO = "ALCO";
