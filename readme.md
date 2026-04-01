@@ -151,3 +151,16 @@ _'Cascadia Code', 'Fira Code', Inconsolata, Consolas, 'Courier New', monospace_
 Free VPN Proxy - VPNLY
 
 windscribe
+
+# Typescript
+
+```
+enum LicenseTypes {
+  ALCO,
+  TOBACCO,
+}
+
+const abc: LicenseTypes.ALCO = "ALCO";
+console.log(abc);
+```
+
