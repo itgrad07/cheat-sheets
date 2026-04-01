@@ -8,9 +8,13 @@ cmd + shift + f4 to make screenshot
 sudo apt update
 ```
 
-`sudo apt list --upgradable`
+```
+sudo apt list --upgradable
+```
 
-`sudo apt update`
+```
+sudo apt update
+```
 
 | Command          | Description          |
 | ---------------- | -------------------- |
@@ -28,21 +32,29 @@ PrintScreen + Ctrl - make quick screenshot (full page screenshot)
 
 Visit [official website](https://git-scm.com/install/linux) to install the latest version of Git on Linux:
 
-`sudo apt-get install git`
+```
+sudo apt-get install git
+```
 
-`sudo add-apt-repository ppa:git-core/ppa`
+```
+sudo add-apt-repository ppa:git-core/ppa
+```
 
-`sudo apt update; sudo apt install git`
+```
+sudo apt update; sudo apt install git
+```
 
 ### NVM
 
-Visit [NVM Github page](https://github.com/nvm-sh/nvm) for install script:
+_Do not install curl via snap! Use `sudo apt install`_
 
-`nvm install stable / latest / carbon / 18`
+Visit [NVM Github page](https://github.com/nvm-sh/nvm) for install script ():
+
+`nvm install --lts / stable / latest / carbon / 18`
 
 `nvm ls`
 
-`nvm use stable / latest / carbon / 18`
+`nvm use --lts stable / latest / carbon / 18`
 
 ### Software
 
@@ -68,17 +80,25 @@ Keyboard -> Add new input source + Change keyboard shortcut to change input sour
 
 # Git
 
-`git config --local user.name itgrad07`
+```
+git config --local user.name itgrad07
+```
 
-`git config --local user.email itgrad07@gmail.com`
+```
+git config --local user.email itgrad07@gmail.com
+```
 
 Delete all local branches except:
 
-`git branch | grep -v "develop" | xargs git branch -D`
+```
+git branch | grep -v "develop" | xargs git branch -D
+```
 
 Create alias for `git status`:
 
-`git config --global alias.st status`
+```
+git config --global alias.st status
+```
 
 | Text                        | Description           |
 | --------------------------- | --------------------- |
@@ -94,9 +114,13 @@ Create alias for `git status`:
 
 Public SSH key is stored in .pub file in ~/.ssh folder:
 
-`ssh-keygen`
+```
+ssh-keygen
+```
 
-`cat ~/.ssh/id_rsa.pub`
+```
+cat ~/.ssh/id_rsa.pub
+```
 
 Public key is stored in a *.pub file
 
@@ -148,6 +172,20 @@ _'Cascadia Code', 'Fira Code', Inconsolata, Consolas, 'Courier New', monospace_
 
 # Other
 
+## Markdown
+
+#...###### headings
+
+```
+code here
+```
+
+`highlight`
+
+_ ... _ italicised
+
+** ... ** bold
+
 #### VPN Chrome Extensions
 
 Free VPN Proxy - VPNLY
@@ -165,4 +203,6 @@ enum LicenseTypes {
 const abc: LicenseTypes.ALCO = "ALCO";
 console.log(abc);
 ```
+
+
 
