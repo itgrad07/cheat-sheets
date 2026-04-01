@@ -4,7 +4,9 @@ cmd + shift + f4 to make screenshot
 
 # Ubuntu Linux
 
-```sudo apt update```
+```
+sudo apt update
+```
 
 `sudo apt list --upgradable`
 
