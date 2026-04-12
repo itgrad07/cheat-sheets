@@ -68,7 +68,9 @@ Install Chromium:
 
 Install VLC player:
 
-`sudo apt install vlc -y`
+```
+sudo apt update; sudo apt install vlc -y
+```
 
 _Built-in screen recorder does not record sound; need to install Kazam or Vokoscreen_
 
