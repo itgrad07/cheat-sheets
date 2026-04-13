@@ -188,12 +188,6 @@ _ ... _ italicised
 
 ** ... ** bold
 
-#### VPN Chrome Extensions
-
-Free VPN Proxy - VPNLY
-
-windscribe
-
 # Typescript
 
 ```
