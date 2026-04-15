@@ -137,6 +137,7 @@ Set the following settings:
 
 Extensions:
 
+- Thunder Client (test HTTP requests)
 - Prettier - Code formatter + edit settings.json
 - ESLint (Microsoft)
 - Live Server (Ritwick Dey)
