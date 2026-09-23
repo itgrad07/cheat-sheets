@@ -18,3 +18,5 @@ git config --global alias.st status
 | :---------------------- | :------------------------------------ |
 | git reset --soft HEAD~N | squash N last commits                 |
 | git reset --soft parent | squash all commits from parent branch |
+
+Two different ways to compare branches: `git diff` (compares real changes) and `git log` (compares commits)
