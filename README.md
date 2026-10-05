@@ -2,4 +2,6 @@
 
 [Npm](./npm.md)
 
+[Linux](./linux.md)
+
 [Vite](./vite.md)
