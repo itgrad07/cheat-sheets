@@ -40,6 +40,12 @@ pick a1b2c3d First commit message
 squash e4f5g6h Second commit message
 ```
 
+## Merging
+
+| Command                         | Description                                |
+| :------------------------------ | :----------------------------------------- |
+| git merge branch --no-edit      | stage all changes                          |
+
 ## Configuring
 
 Create git command alias:
