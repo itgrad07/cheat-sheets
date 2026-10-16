@@ -44,7 +44,7 @@ squash e4f5g6h Second commit message
 
 | Command                         | Description                                |
 | :------------------------------ | :----------------------------------------- |
-| git merge branch --no-edit      | merge branch into active branch without with default commit message                          |
+| git merge branch --no-edit      | merge branch into active branch with default commit message                          |
 
 ## Configuring
 
