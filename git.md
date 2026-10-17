@@ -1,5 +1,27 @@
 # Git
 
+## Configuring
+
+All git settings are comprised of:
+
+- system settings
+- user settings
+- project (local repo) settings
+
+Initialize a git project in a folder (creates hidden `.git` folder with Git project settings (local settings)):
+
+```
+git init
+```
+
+Create git command alias:
+
+```
+git config --global alias.st status
+```
+
+Two different ways to compare branches: `git diff` (compares real changes) and `git log` (compares commits)
+
 ## Dealing with branches
 
 | Command              | Description         |
@@ -42,16 +64,6 @@ squash e4f5g6h Second commit message
 
 ## Merging
 
-| Command                         | Description                                |
-| :------------------------------ | :----------------------------------------- |
-| git merge branch --no-edit      | merge branch into active branch with default commit message                          |
-
-## Configuring
-
-Create git command alias:
-
-```
-git config --global alias.st status
-```
-
-Two different ways to compare branches: `git diff` (compares real changes) and `git log` (compares commits)
+| Command                    | Description                                                 |
+| :------------------------- | :---------------------------------------------------------- |
+| git merge branch --no-edit | merge branch into active branch with default commit message |

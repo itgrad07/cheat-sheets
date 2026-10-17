@@ -1,5 +1,11 @@
 # NPM
 
+Initialize npm project in a folder (creates `package.json` file):
+
+```
+npm init / npm init -y
+```
+
 npm can install deps for development only (in `devDependencies`) and for both development and production (in `dependencies`).
 
 Installing dependencies:
@@ -19,5 +25,5 @@ npm i jest -D
 ```
 
 ```
-npm install express@4.13.4 –save-dev
+npm install express@4.13.4 --save-dev
 ```
