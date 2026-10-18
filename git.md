@@ -62,6 +62,10 @@ pick a1b2c3d First commit message
 squash e4f5g6h Second commit message
 ```
 
+### Rebase commits
+
+Put commit back in the history: commit changes, `git rebase -i <parent-commit-hash>` to place you commit **after** parent-commit
+
 ## Merging
 
 | Command                    | Description                                                 |
