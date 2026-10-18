@@ -16,3 +16,13 @@ Fix error [Error mounting /dev/sdc1 at /media/rob/ Elements: wrong fs type, bad 
 ```
 sudo ntfsfix -b -d /dev/sdc1
 ```
+
+## Installing pachages
+
+```
+sudo apt install curl
+```
+
+```
+sudo dpkg -i <package-name>.deb
+```
