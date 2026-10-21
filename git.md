@@ -14,6 +14,16 @@ Initialize a git project in a folder (creates hidden `.git` folder with Git proj
 git init
 ```
 
+Set local settings:
+
+```
+git config --local user.name itgrad07
+```
+
+```
+git config --local user.email itgrad07@gmail.com
+```
+
 Create git command alias:
 
 ```
@@ -62,9 +72,16 @@ pick a1b2c3d First commit message
 squash e4f5g6h Second commit message
 ```
 
-### Rebase commits
+## Rebasing commits
 
 Put commit back in the history: commit changes, `git rebase -i <parent-commit-hash>` to place you commit **after** parent-commit
+
+## Stashing changes
+
+| Command      | Description                     |
+| :----------- | :------------------------------ |
+| git stash    | stash tracked files             |
+| git stash -u | stash tracked + untracked files |
 
 ## Merging
 
